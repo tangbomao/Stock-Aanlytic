@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="org.common.persistence.domain.SysCss" table="sys_css">
+        <id name="cssId" type="java.lang.Integer">
+			<column name="cssId" />
+			<generator class="increment" />
+		</id>
+
+		<property name="type" type="java.lang.Integer">
+			<column name="type" />
+		</property>
+		<property name="css" type="java.lang.String">
+			<column name="css" />
+		</property>
+		<property name="text" type="java.lang.String">
+			<column name="text" />
+		</property>
+    </class>
+</hibernate-mapping>

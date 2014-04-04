@@ -1,0 +1,181 @@
+/** APP project icon **/
+.logo {
+	background: url("images/project/logo.png") no-repeat;
+}
+
+/** APP common icon **/
+.icon-login {
+	background: url(images/lib/16px/arrow_right.png) no-repeat !important;
+}
+.icon-logout {
+	background: url(images/lib/16px/logout.png) no-repeat !important;
+}
+.icon-menu {
+	background: url(images/lib/16px/label.png) no-repeat !important;
+}
+
+/** APP common icon **/
+.icon-app {
+	background: url(images/icons/application.png) no-repeat !important;
+}
+.icon-app-home {
+	background: url(images/icons/application_home.png) no-repeat !important;
+}
+.icon-form {
+	background: url(images/icons/application_form.png) no-repeat !important;
+}
+.icon-form-add {
+	background: url(images/icons/application_form_add.png) no-repeat !important;
+}
+.icon-form-delete {
+	background: url(images/icons/application_form_delete.png) no-repeat !important;
+}
+.icon-form-edit {
+	background: url(images/icons/application_form_edit.png) no-repeat !important;
+}
+
+.icon-refresh {
+	background: url(images/icons/arrow_refresh.png) no-repeat !important;
+}
+.icon-undo {
+	background: url(images/icons/arrow_undo.png) no-repeat !important;
+}
+.icon-cancel {
+	background: url(images/icons/cancel.png) no-repeat !important;
+}
+.icon-save {
+	background: url(images/icons/disk.png) no-repeat !important;
+}
+.icon-accept {
+	background: url(images/icons/accept.png) no-repeat !important;
+}
+.icon-delete {
+	background: url(images/icons/delete.png) no-repeat !important;
+}
+.icon-add {
+	background: url(images/icons/add.png) no-repeat !important;
+}
+.icon-edit {
+	background: url(images/icons/page_white_edit.png) no-repeat !important;
+}
+.icon-tick {
+	background: url(images/icons/tick.png) no-repeat !important;
+}
+.icon-cross {
+	background: url(images/icons/cross.png) no-repeat !important;
+}
+.icon-search {
+	background: url(images/icons/zoom.png) no-repeat !important;
+}
+
+.icon-open {
+	background: url(images/icons/controller.png) no-repeat !important;
+}
+.icon-close {
+	background: url(images/icons/cancel.png) no-repeat !important;
+}
+.icon-ready {
+	background: url(images/icons/hourglass.png) no-repeat !important;
+}
+.icon-all-ready {
+	background: url(images/icons/bug.png) no-repeat !important;
+}
+
+.icon-setting {
+	background: url(images/icons/cog.png) no-repeat !important;
+}
+.icon-setting-add {
+	background: url(images/icons/cog_add.png) no-repeat !important;
+}
+.icon-setting-delete {
+	background: url(images/icons/cog_delete.png) no-repeat !important;
+}
+.icon-setting-edit {
+	background: url(images/icons/cog_edit.png) no-repeat !important;
+}
+
+.icon-user {
+	background: url(images/icons/user.png) no-repeat !important;
+}
+.icon-user-add {
+	background: url(images/icons/user_add.png) no-repeat !important;
+}
+.icon-user-delete {
+	background: url(images/icons/user_delete.png) no-repeat !important;
+}
+.icon-user-edit {
+	background: url(images/icons/user_edit.png) no-repeat !important;
+}
+.icon-user-common {
+	background: url(images/icons/user_green.png) no-repeat !important;
+}
+.icon-user-advance {
+	background: url(images/icons/user_orange.png) no-repeat !important;
+}
+.icon-user-super {
+	background: url(images/icons/user_red.png) no-repeat !important;
+}
+
+.icon-item {
+	background: url(images/icons/newspaper.png) no-repeat !important;
+}
+.icon-item-send {
+	background: url(images/icons/newspaper_go.png) no-repeat !important;
+}
+
+.icon-key {
+	background: url(images/icons/key.png) no-repeat !important;
+}
+.icon-lock {
+	background: url(images/icons/lock.png) no-repeat !important;
+}
+.icon-lock-open {
+	background: url(images/icons/lock_open.png) no-repeat !important;
+}
+.icon-game {
+	background: url(images/icons/controller.png) no-repeat !important;
+}
+.icon-data {
+	background: url(images/icons/chart_curve.png) no-repeat !important;
+}
+.icon-data-colunm {
+	background: url(images/icons/bricks.png) no-repeat !important;
+}
+.icon-data-group {
+	background: url(images/icons/brick.png) no-repeat !important;
+}
+.icon-chart-bar {
+	background: url(images/icons/chart_bar.png) no-repeat !important;
+}
+.icon-chart-pie {
+	background: url(images/icons/chart_pie.png) no-repeat !important;
+}
+.icon-chart-line {
+	background: url(images/icons/chart_line.png) no-repeat !important;
+}
+
+
+/** Special icon **/
+.icon-jinlongshilian {
+	background: url(images/project/jinlongshilian.png) no-repeat !important;
+}
+.icon-manwang {
+	background: url(images/project/manwang.png) no-repeat !important;
+}
+.icon-zhengbasai {
+	background: url(images/project/zhengbasai.png) no-repeat !important;
+}
+.icon-zhenyingzhan {
+	background: url(images/project/zhenyingzhan.png) no-repeat !important;
+}
+.icon-chengzhuzhan {
+	background: url(images/project/chengzhuzhan.png) no-repeat !important;
+}
+.icon-qunmoweicheng {
+	background: url(images/project/qunmoweicheng.png) no-repeat !important;
+}
+.icon-juntuanzhan {
+	background: url(images/project/juntuanzhan.png) no-repeat !important;
+}
+
+

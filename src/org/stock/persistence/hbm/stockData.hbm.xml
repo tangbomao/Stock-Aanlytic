@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="org.stock.persistence.domain.StockData" table="stock_data">
+        <id name="recordId" type="java.lang.Integer">
+			<column name="recordId" />
+			<generator class="increment" />
+		</id>
+
+		<property name="code" type="java.lang.String">
+			<column name="code" />
+		</property>
+		<property name="datetime" type="java.lang.Long">
+			<column name="datetime" />
+		</property>
+		<property name="open" type="java.lang.Double">
+			<column name="open" />
+		</property>
+		<property name="high" type="java.lang.Double">
+			<column name="high" />
+		</property>
+		<property name="low" type="java.lang.Double">
+			<column name="low" />
+		</property>
+		<property name="close" type="java.lang.Double">
+			<column name="close" />
+		</property>
+		<property name="adj" type="java.lang.Double">
+			<column name="adj" />
+		</property>
+		<property name="volume" type="java.lang.Integer">
+			<column name="volume" />
+		</property>
+		<property name="rise" type="java.lang.Boolean">
+			<column name="rise" />
+		</property>
+    </class>
+</hibernate-mapping>

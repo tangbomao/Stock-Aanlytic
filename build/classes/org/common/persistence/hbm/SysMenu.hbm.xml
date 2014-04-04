@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="org.common.persistence.domain.SysMenu" table="sys_menu">
+        <id name="id" type="java.lang.Integer">
+			<column name="id" />
+			<generator class="increment" />
+		</id>
+
+		<property name="menuId" type="java.lang.String">
+			<column name="menuId" />
+		</property>
+
+		<property name="text" type="java.lang.String">
+			<column name="text" />
+		</property>
+
+		<property name="parentId" type="java.lang.String">
+			<column name="parentId" />
+		</property>
+
+		<property name="iconCls" type="java.lang.String">
+			<column name="iconCls" />
+		</property>
+
+		<property name="qtip" type="java.lang.String">
+			<column name="qtip" length="100" />
+		</property>
+    </class>
+</hibernate-mapping>

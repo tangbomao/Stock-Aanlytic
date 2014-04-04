@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="org.common.persistence.domain.User" table="user">
+
+		<id name="userId" type="java.lang.Integer">
+			<column name="userId" />
+			<generator class="increment" />
+		</id>
+
+		<property name="account" type="java.lang.String">
+			<column name="account" />
+		</property>
+		<property name="password" type="java.lang.String">
+			<column name="password" />
+		</property>
+		
+		<property name="totalMoney" type="java.lang.Integer">
+			<column name="totalMoney" />
+		</property>
+		<property name="stockMoney" type="java.lang.Integer">
+			<column name="stockMoney" />
+		</property>
+		<property name="totalCharge" type="java.lang.Integer">
+			<column name="totalCharge" />
+		</property>
+		<property name="buyCount" type="java.lang.Integer">
+			<column name="buyCount" />
+		</property>
+		<property name="sellCount" type="java.lang.Integer">
+			<column name="sellCount" />
+		</property>
+		
+	</class>
+</hibernate-mapping>
