@@ -1,4 +1,5 @@
 Stock-Aanlytic
 ==============
 
-Stock Aanlytic for myself
+股票数据下载（数据源从雅虎或者新浪，不是很稳定）
+根据数据模型（流入流出资金、活跃性）等输出推荐股票
